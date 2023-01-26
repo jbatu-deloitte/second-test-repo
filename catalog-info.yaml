@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: second-test-repo
+  annotations:
+    github.com/project-slug: jbatu-deloitte/second-test-repo
+spec:
+  type: other
+  lifecycle: unknown
+  owner: Jairenz
