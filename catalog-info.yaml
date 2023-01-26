@@ -2,8 +2,19 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: second-test-repo
+  description: |
+    This is a test repository added to Backstage
   annotations:
     github.com/project-slug: jbatu-deloitte/second-test-repo
+  links:
+    - title: Website
+      url: http://second.io
+    - title: Documentation
+      url: https://second.io/docs
+    - title: Storybook
+      url: https://second.io/storybook
+    - title: Discord Chat
+      url: https://second.com/invite/EBHEGzX
 spec:
   type: other
   lifecycle: unknown
